@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Portfolio</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" href="images/favicon (8).ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon (8).ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey lighten-2">
+  <!-- Navbar and Header -->
+  <div id="navbar" class="navbar-fixed scrollspy">
+    <nav  class="indigo lighten-4">
+      <div class="nav-wrapper container">
+        <div class="container"> <a href="#navbar" class="brand-logo white-text">Ayo Temiloluwa</a></div>
+      
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <ul class="right hide-on-med-and-down">
+        
+          <li><a class="head-link" href="#projects">Projects</a></li>
+          <li><a class="head-link" href="#aboutme">About Me</a></li>
+          <li><a class="head-link" href="#contactus">Contact Us</a></li>
+        
+        </ul>
+        <ul class="right side-nav" id="mobile-demo">
+          <li><a class="head-link" href="#projects">Projects</a></li>
+          <li><a class="head-link" href="#aboutme">About Me</a></li>
+          
+          <li><a class="head-link" href="#contactus">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br> <br>
+        <h1 class="header center indigo-text text-lighten-1"> <br> <br> Hi, I'm Temiloluwa.</h1>
+        <div class="row center">
+          <h5 class="header col s12 white-text light"> A junior fullstack developer well versed in the use of html, CSS, JS, PHP and Python.</h5>
+        </div>
+        <!-- <div class="row center">
+          <a href="#" class="btn-large waves-effect waves-light purple lighten-1">Find more</a>
+        </div> -->
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/pexels-joão-jesus-925743-copy.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  
+  <!-- Projects -->
+ <div class="container section scrollspy" id="projects">
+    <div class="section">
+    	<br>
+    	<br>
+      <h4 class="center">Projects</h4>
+      <br>
+      <div class="row">
+      	<div class="col s4 center">
+        <img class="materialboxed responsive-img" data-caption="Created a weather application designed to tell weather in any city in the world."  src="images/Weather-app.JPG">
+        <a href="https://weather-app.temiloluwaayo.repl.co/">Weather App</a>
+      	</div> 
+      	<div class="col s4 center">
+        <img class="materialboxed responsive-img" data-caption="Designed a class photo page to show participants "  src="images/PhotoBook.JPG">
+        <a href="https://nervous-allen-b18dcc.netlify.app/">Photo Book</a>
+        </div> 
+        <div class="col s4">
+      	<img class="materialboxed responsive-img" data-caption="A simple contact page" src="images/Contact-Page.JPG">
+      	</div> 
+      </div>
+      </div><!--row-->
+
+    </div>
+  </div>
+ 
+  <!-- About Me -->
+  <div class="parallax-container valign-wrapper section scrollspy" id="aboutme">
+    <div class="section no-pad-bot">
+      <div class="container center white-text">
+        	<h3>About Me</h3>
+        <div class="center row col s12">
+        	<p>I am a Self taught (no degree/certifications) devloper. Currently enrolled in the Ladies At Work program hosted by
+            Pearls Africa in conjuction with the U.S Consulate. While I'm not busy coding away, I assume myself to be a wonderful
+            writer and a creative through and through. I am available for internship roles and freelance work. Don't hesitate to contact me.
+          </p>
+       </div>
+       
+      </div>
+    </div>
+    <div class="parallax"><img src="images/black-background.jpg" alt="img"></div>
+  </div>
+
+<!-- Contact me section -->
+
+  <div class="container section scrollspy" id="contactus">
+    <div class="section">
+      <br>
+      <div class="row">
+        <div class="col s12 l6 ">
+          <br>
+          <br>
+          <h3 class="indigo-text text-lighten-1">Contact Me </h3>
+          
+        </div>
+        <div class="col s12 l6 ">
+          <br>
+          <br>
+          <br>
+          <ul>
+              <li><a href=""><i class="material-icons indigo-text text-lighten-4 ">phone</i></a> +234(0) 810 001 54774</li>
+              <li> <a href=""><i class="material-icons indigo-text text-lighten-4">email</i></a>  temiloluwayo30@gmail.com</li>
+              <li> <a href=""><i class="material-icons indigo-text text-lighten-4">location_on</i></a> Abuja, Nigeria.
+              </li>
+          </ul>
+        </div>
+      </div>
+      	
+      
+
+    </div>
+  </div>
+
+
+  <footer class="page-footer indigo lighten-3 ">
+   
+    <div class="footer-copyright">
+      <div class="container center">
+       <p>Copyright © Your website name</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+      $('.button-collapse').sideNav();
+      
+  });
+  </script>
+  <script>
+  	    $('.head-link').click(function(e) {
+        e.preventDefault();
+        
+        var goto = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(goto).offset().top
+        }, 800);
+    });
+
+  </script>
+
+			 <!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60673008-2', 'auto');
+  ga('send', 'pageview');
+</script> -->
+  </body>
+</html>
